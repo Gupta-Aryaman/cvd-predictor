@@ -1,18 +1,8 @@
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
 
-from sklearn.feature_selection import SelectKBest, f_classif, SelectFromModel
-from sklearn.model_selection import train_test_split, GridSearchCV
-from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.svm import SVC
-from sklearn.naive_bayes import GaussianNB
-from sklearn.metrics import accuracy_score, confusion_matrix, classification_report, precision_score, recall_score, f1_score, roc_auc_score
-from sklearn.preprocessing import StandardScaler
-from matplotlib import rcParams
-from sklearn.compose import ColumnTransformer
+
 
 import streamlit as st
 
